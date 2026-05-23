@@ -1,6 +1,11 @@
 // a
-const getGreeting = (name) => {
+const getGreetingExpression = function(name) {
+  return 'Hello ' + name + '!';
+};
+
+const getGreetingArrow = (name) => {
 return 'Hello ' + name + '!';
 }
 
-console.log(getGreeting('Jasmine'));
+console.log(getGreetingExpression('Jasmine'));
+console.log(getGreetingArrow('Jasmine'));
